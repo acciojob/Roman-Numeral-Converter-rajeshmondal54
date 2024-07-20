@@ -16,11 +16,12 @@ function convertToRoman(num) {
 			result += symbol;
 			num -= value;
 			}
-    }
-    
+	}
     return result;
-
 }
+console.log(convertToRoman(36));
+console.log(convertToRoman(14));
+console.log(convertToRoman(798));
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 // console.log(convertToRoman(36));
